@@ -18,7 +18,7 @@ const projects = [
   {
     id:'pokemon', number:'02', title:'Pokémon Card Recognition', category:'COMPUTER VISION / PYTHON / CNN',
     description:'A computer vision project that identifies Pokémon cards using image classification with a Convolutional Neural Network.',
-    tags:['Python','CNN','TensorFlow/Keras','Google Colab'], image:'assets/pokemon-slides/slide-1.jpg',
+    tags:['Python','CNN','TensorFlow/Keras','Google Colab'], image:'assets/pokemon-cover.png',
     tagline:'TURNING IMAGES INTO INFORMATION.',
     links:[
       {label:'VIEW COLAB',url:'https://colab.research.google.com/drive/1i4B74Cy1GG-_Z91UlkT_gsAcMVPxHGQV?usp=sharing'},
