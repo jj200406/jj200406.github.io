@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Joud Mutlaq — Computer Science project portfolio.">
+  <meta name="theme-color" content="#071011">
+  <title>Joud Mutlaq — Project Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Joud Mutlaq home">JM</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="active" href="#home">HOME</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <div class="header-meta">COMPUTER SCIENCE STUDENT <span class="dot"></span></div>
+  </header>
+
+  <main id="home">
+    <section class="hero section-grid" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">// BUILDING WHAT MATTERS</p>
+        <h1 id="hero-title"><span>JOUD</span><em>MUTLAQ</em></h1>
+        <p class="hero-lead">Computer Science student passionate about turning ideas into meaningful solutions.</p>
+        <a class="outline-btn" href="#projects">VIEW MY WORK <span>→</span></a>
+      </div>
+      <div class="hero-side">
+        <div class="hero-keywords">TECHNOLOGY<br>PEOPLE<br>IDEAS<br>A BRIGHTER TOMORROW</div>
+        <div class="hero-rule"></div>
+        <blockquote>“Small<br>solutions,<br>bigger<br>possibilities.”</blockquote>
+      </div>
+      <div class="hero-foot">BASED IN<br>SAUDI ARABIA <span class="dot"></span></div>
+    </section>
+
+    <section class="principles" aria-label="Approach">
+      <article><span>01</span><div><b>LEARN</b><p>Always curious,<br>always learning.</p></div></article>
+      <article><span>02</span><div><b>BUILD</b><p>Transforming ideas<br>into real solutions.</p></div></article>
+      <article><span>03</span><div><b>CREATE</b><p>Focused on impact<br>and better experiences.</p></div></article>
+      <article><span>04</span><div><b>COMPUTER SCIENCE</b><p>HCI / AI / DATA / CV</p></div></article>
+    </section>
+
+    <section class="projects-wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">// FEATURED WORK</p>
+          <h2 id="projects-title">Selected Projects</h2>
+        </div>
+        <div class="section-heading-copy">
+          <p>A collection of projects that reflect my interest in creating practical, user-centered and intelligent solutions.</p>
+          <a href="#projects">VIEW ALL PROJECTS →</a>
+        </div>
+      </div>
+      <div id="project-grid" class="project-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="about-band section-grid" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="eyebrow">// A LITTLE ABOUT ME</p>
+        <h2 id="about-title">Curious by nature.<br><em>Practical by choice.</em></h2>
+      </div>
+      <div class="about-copy">
+        <p>I enjoy building projects where design, technology, and problem-solving meet — from HCI and mobile apps to computer vision and machine learning.</p>
+        <p class="small-note">This portfolio is intentionally project-first. More work can be added over time without changing the visual system.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer section-grid">
+    <div class="footer-quote">“ALWAYS CURIOUS,<br>ALWAYS BUILDING.”</div>
+    <div class="connect">
+      <span>LET’S CONNECT</span>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+      <a href="https://github.com/jj200406" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+      <a href="https://github.com/jj200406" aria-label="GitHub contact">@</a>
+    </div>
+    <a class="pill-btn" href="https://github.com/jj200406">GET IN TOUCH <span>→</span></a>
+  </footer>
+
+  <dialog id="project-modal" class="project-modal">
+    <div class="modal-shell">
+      <button class="modal-close" aria-label="Close project details">×</button>
+      <div id="modal-content"></div>
+    </div>
+  </dialog>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
